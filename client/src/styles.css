@@ -1,0 +1,59 @@
+:root{
+  --accent:#6f42c1;
+  --accent-2:#7952b3;
+  --muted:#6c757d;
+}
+
+html,body,#root{
+  height:100%;
+}
+
+body{
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(120deg, #f8f9fa 0%, #eef2ff 40%, #fef6ff 100%);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.auth-page{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:2rem;
+}
+
+.auth-card{
+  width:100%;
+  max-width:420px;
+}
+
+.card.shadow{
+  border:none;
+  border-radius:12px;
+  box-shadow: 0 6px 20px rgba(99,102,241,0.08), 0 2px 6px rgba(16,24,40,0.04);
+}
+
+.btn-primary{
+  background: linear-gradient(90deg,var(--accent),var(--accent-2));
+  border: none;
+}
+
+.navbar-brand{
+  font-weight:700;
+  color:#fff!important;
+}
+
+.notes-container{
+  background: rgba(255,255,255,0.6);
+  padding:1.25rem;
+  border-radius:12px;
+}
+
+.card .card-title{
+  color: #343a40;
+}
+
+.note-empty{
+  color: var(--muted);
+}
